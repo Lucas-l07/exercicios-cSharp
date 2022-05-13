@@ -4,7 +4,7 @@ namespace Exercício_02 {
     class Program {
         static void Main(string[] args) {
             double note1, note2, note3, finalNote;
-            //lucas
+            //lucas braatz
             string[] vet = Console.ReadLine().Split(' ');
             note1 = double.Parse(vet[0]);
             note2 = double.Parse(vet[1]);
