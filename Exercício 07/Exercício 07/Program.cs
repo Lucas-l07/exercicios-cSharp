@@ -5,9 +5,11 @@ namespace Exercício_07 {
         static void Main(string[] args) {
             int num = 1;
 
+            num = int.Parse(Console.ReadLine());
+
             while (num != 0) {
-                num = int.Parse(Console.ReadLine());
                 Console.WriteLine(Math.Pow(num, 2));
+                num = int.Parse(Console.ReadLine());
             }
         }
     }
